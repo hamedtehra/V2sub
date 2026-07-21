@@ -1,0 +1,34 @@
+name: Update Subscription Country
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download subscriptions
+        run: |
+          rm -f sub-country.txt
+
+          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt" >> sub-country.txt
+          echo "" >> sub-country.txt
+
+          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub2.txt" >> sub-country.txt
+          echo "" >> sub-country.txt
+
+          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub-country.txt
+
+          sed -i 's/#EPODONIOS/#Luxid.vip | 🌍/g' sub-country.txt
+
+      - name: Commit
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add sub-country.txt
+          git commit -m "Update Country Subscription" || echo "No changes"
+          git push
