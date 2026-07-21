@@ -25,7 +25,7 @@ jobs:
 
           curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub.txt
 
-echo "luxid.vip" >> sub.txt
+      echo "luxid.vip" >> sub.txt
 
       - name: Commit
         run: |
