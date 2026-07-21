@@ -11,6 +11,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-pip
+          pip install requests
+
       - name: Download subscriptions
         run: |
           rm -f sub-country.txt
@@ -23,17 +29,14 @@ jobs:
 
           curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub-country.txt
 
-      - name: Add country tags
+      - name: Add Luxid country names
         run: |
           python3 <<'PY'
           import re
-          import urllib.request
-          import json
+          import socket
+          import requests
 
           file = "sub-country.txt"
-
-          with open(file, "r", encoding="utf-8", errors="ignore") as f:
-              data = f.read()
 
           flags = {
               "DE": "🇩🇪",
@@ -44,13 +47,48 @@ jobs:
               "FI": "🇫🇮",
               "SE": "🇸🇪",
               "SG": "🇸🇬",
-              "JP": "🇯🇵"
+              "JP": "🇯🇵",
+              "TR": "🇹🇷",
+              "CA": "🇨🇦",
+              "AU": "🇦🇺"
           }
 
+          with open(file, "r", encoding="utf-8", errors="ignore") as f:
+              data = f.read()
+
+          def country_from_host(host):
+              try:
+                  ip = socket.gethostbyname(host)
+                  response = requests.get(
+                      f"https://ipapi.co/{ip}/country/",
+                      timeout=5
+                  )
+                  return response.text.strip()
+              except:
+                  return ""
+
           def replace_name(match):
+              host = match.group(1)
+
+              country = country_from_host(host)
+
+              if country in flags:
+                  return f"#Luxid.vip | {flags[country]} {country}"
+
               return "#Luxid.vip | 🌍"
 
-          data = re.sub(r"#EPODONIOS", replace_name, data)
+          # پیدا کردن آدرس سرورها در کانفیگ‌ها
+          data = re.sub(
+              r"#EPODONIOS.*?\n",
+              replace_name,
+              data
+          )
+
+          # اگر خط نام پیدا نشد
+          data = data.replace(
+              "#EPODONIOS",
+              "#Luxid.vip | 🌍"
+          )
 
           with open(file, "w", encoding="utf-8") as f:
               f.write(data)
@@ -62,5 +100,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add sub-country.txt
-          git commit -m "Update Country Subscription" || echo "No changes"
+          git commit -m "Update Luxid Country Subscription" || echo "No changes"
           git push
