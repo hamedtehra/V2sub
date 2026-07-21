@@ -2,7 +2,7 @@ name: Update Subscription
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -23,8 +23,10 @@ jobs:
           curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub2.txt" >> sub.txt
           echo "" >> sub.txt
 
-          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> 
+          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub.txt
 
+          echo "" >> sub.txt
+          echo "luxid.vip" >> sub.txt
 
       - name: Commit
         run: |
