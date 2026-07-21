@@ -25,13 +25,12 @@ jobs:
 
           curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub.txt
 
-          echo "" >> sub.txt
-          echo "luxid.vip" >> sub.txt
+          sed -i 's/#EPODONIOS/#Luxid.vip/g' sub.txt
 
       - name: Commit
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add sub.txt
-          git commit -m "Auto Update" || echo "No changes"
+          git commit -m "Auto Update Luxid" || echo "No changes"
           git push
