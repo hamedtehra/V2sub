@@ -1,8 +1,6 @@
 name: Update Subscription
 
 on:
-  schedule:
-    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,19 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download subscriptions
+      - name: Test
         run: |
-          rm -f sub.txt
-          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt" >> sub.txt
-          echo "" >> sub.txt
-          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub2.txt" >> sub.txt
-          echo "" >> sub.txt
-          curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub.txt
-
-      - name: Commit
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add sub.txt
-          git commit -m "Auto Update" || echo "No changes"
-          git push
+          echo "Workflow OK"
