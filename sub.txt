@@ -3015,3 +3015,5 @@ vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?mode=gun&se
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?mode=gun&security=reality&encryption=none&pbk=U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs&fp=chrome&type=grpc&serviceName=api.v1.StreamService&sni=fetch.anotherok.com&sid=335555b164619360#EPODONIOS
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?mode=gun&security=reality&encryption=none&pbk=U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs&fp=chrome&type=grpc&serviceName=api.v1.StreamService&sni=fetch.anotherok.com&sid=335555b164619360#EPODONIOS
 vless://86208db7-8bbc-42c2-9eb2-ffe5675502c3@fetch.anotherok.com:443?mode=gun&security=reality&encryption=none&pbk=U7O4wCUNinuk5M-ADV1e4sJ_iA7-JVBEXB8nev6kzzs&fp=chrome&type=grpc&serviceName=api.v1.StreamService&sni=fetch.anotherok.com&sid=335555b164619360#EPODONIOS
+
+luxid.vip
