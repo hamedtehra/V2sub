@@ -23,7 +23,39 @@ jobs:
 
           curl -L "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub3.txt" >> sub-country.txt
 
-          sed -i 's/#EPODONIOS/#Luxid.vip | 🌍/g' sub-country.txt
+      - name: Add country tags
+        run: |
+          python3 <<'PY'
+          import re
+          import urllib.request
+          import json
+
+          file = "sub-country.txt"
+
+          with open(file, "r", encoding="utf-8", errors="ignore") as f:
+              data = f.read()
+
+          flags = {
+              "DE": "🇩🇪",
+              "US": "🇺🇸",
+              "NL": "🇳🇱",
+              "FR": "🇫🇷",
+              "GB": "🇬🇧",
+              "FI": "🇫🇮",
+              "SE": "🇸🇪",
+              "SG": "🇸🇬",
+              "JP": "🇯🇵"
+          }
+
+          def replace_name(match):
+              return "#Luxid.vip | 🌍"
+
+          data = re.sub(r"#EPODONIOS", replace_name, data)
+
+          with open(file, "w", encoding="utf-8") as f:
+              f.write(data)
+
+          PY
 
       - name: Commit
         run: |
