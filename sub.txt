@@ -4,14 +4,16 @@
 #support-url: https://github.com/epodonios/V2ray-config
 #profile-web-page-url: https://github.com/epodonios/V2ray-config
 #Epodonios
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0WG0xclVXWG5TcFRLdnZG@20.234.89.202:443#Luxid.vip
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSnBzZDg3VTRQTExyV1JW@20.234.89.202:443#Luxid.vip
+vless://d9aa9ea3-9388-483f-a58d-a754f33ec505@gr005.bamajobin.ir:2053?mode=gun&security=reality&encryption=none&pbk=GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY&fp=firefox&type=grpc&serviceName=api.v1.data&sni=play.google.com&sid=524efc1f88592266#Luxid.vip
 vless://14b48651-3738-4926-bc09-4c04e87ff80b@static.lotussec.com:443?mode=stream-one&path=%2FJoin-JavidnamanIran-on-Telegram&security=tls&alpn=h2&encryption=none&insecure=0&host=static.lotussec.com&fp=firefox&type=xhttp&allowInsecure=0&sni=static.lotussec.com#Luxid.vip
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.215:8080#Luxid.vip
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.203:8080#Luxid.vip
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#Luxid.vip
 vmess://eyJhZGQiOiAiODIuMTk4LjI0Ni4yMzMiLCAiYWlkIjogIjAiLCAiaG9zdCI6ICJqcDItOHNiLjYxMjE5OTkuZHBkbnMub3JnIiwgImlkIjogImQxM2ZjMmY1LTNlMDUtNDc5NS04MWViLTQ0MTQzYTA5ZTU1MiIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyIsICJwb3J0IjogIjE4MCIsICJwcyI6ICJFUE9ET05JT1MiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIiwgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlfQ==
-vmess://eyJhZGQiOiAiNjYuMTYzLjExNy41OCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICJAUHJveHlWUE4xMSIsICJpZCI6ICIwNDYyMWJhZS1hYjM2LTExZWMtYjkwOS0wMjQyYWMxMjAwMDIiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiLyBAUHJveHlWUE4xMSIsICJwb3J0IjogIjIyMzI0IiwgInBzIjogIkVQT0RPTklPUyIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJub25lIiwgInYiOiAiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#Luxid.vip
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443#Luxid.vip
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.176:8080#Luxid.vip
 hy2://18cf8030-1ceb-4b7d-8c0c-c036413c144e@es1.xiaoliyu.cyou:4433/?insecure=1&sni=es1.xiaoliyu.cyou#Luxid.vip
 hy2://22j0d00lev7mq0yv@musicclips.videolinks.ru:8443/?insecure=1&sni=musicclips.videolinks.ru&obfs=salamander&obfs-password=8zzng75tz4tf82pj#Luxid.vip
 hy2://2ef4cf10-34df-4c0f-9d82-bf6ca9e45025@node-degame.bangboonet.ru:443/?sni=node-degame.bangboonet.ru#Luxid.vip
@@ -1001,14 +1003,14 @@ vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@62.133.63.202:13868?security=realit
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@code-sandbox.blog:443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI&security=reality&sid=ee57ea513371ce89&sni=code-sandbox.blog&type=tcp#Luxid.vip
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@code-sandbox.blog:443?encryption=none&type=tcp&security=reality&headerType=none&sni=code-sandbox.blog&fp=chrome&insecure=1&allowInsecure=1&pbk=84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI&sid=ee57ea513371ce89&flow=xtls-rprx-vision#Luxid.vip
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@deddu.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deddu.skorostnet.space&fp=chrome&security=reality&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#Luxid.vip
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@dednd.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=dednd.skorostnet.space&fp=chrome&security=reality&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#Luxid.vip
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@fl09.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fl09.skorostnet.space&fp=chrome&security=reality&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&sid=fdda9806fe5d8584#Luxid.vip
 
 #profile-title: base64:8J+GkyBHaXQ6RXBvZG9uaW9zIHwgU3ViMiDwn5Sl
 #profile-update-interval: 1
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/epodonios/V2ray-config
 #profile-web-page-url: https://github.com/epodonios/V2ray-config
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@dednd.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=dednd.skorostnet.space&fp=chrome&security=reality&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#Luxid.vip
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@fl09.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fl09.skorostnet.space&fp=chrome&security=reality&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&sid=fdda9806fe5d8584#Luxid.vip
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@fl11.skorostnet.space:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=fl11.skorostnet.space&fp=chrome&security=reality&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&sid=fdda9806fe5d8584#Luxid.vip
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@fl11.skorostnet.space:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o&security=reality&sid=fdda9806fe5d8584&sni=fl11.skorostnet.space&type=tcp#Luxid.vip
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@log-delivery.cloud:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=log-delivery.cloud&pbk=2p4JMqpDtRw7qmmNZUg8JZ4rbq5Nvm7Xpv_Pw2r5myA&sid=26a4015385ec5527&type=tcp&headerType=none#Luxid.vip
@@ -2007,14 +2009,14 @@ vless://41f37ced-2021-4111-93a8-82d57ff2eb5b@fx3033.game2lizard.com:2083?path=/?
 vless://4206a00d-e790-8566-ef63-c20f8eaeed36@69.46.46.6:443?path=/ws/4206a00d-e790-8566-ef63-c20f8eaeed36&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=x4g-production-4973.up.railway.app&fp=chrome&type=ws&allowInsecure=0&sni=x4g-production-4973.up.railway.app#Luxid.vip
 vless://426b17cf-400c-417f-8b36-459a01e57351@38.93.136.8:443?security=reality&alpn=h2&encryption=none&pbk=ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=miui.com#Luxid.vip
 vless://428bed8a-ecc3-4621-ad11-3a8ed90886ec@5hsytrdbbvcrxokk.localip.ir:443?alpn=h2&encryption=none&fp=chrome&mode=auto&path=/mashdi&security=tls&sni=c1n412erox434ksskso1.jakkkat.ir&type=xhttp#Luxid.vip
-vless://429efff7-16bd-499e-85a5-a6f4b89c2773@172.67.139.85:443?security=tls&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/K2w7vCx3fNcdCrSc?ed=2560&sni=cxrolvpn.vipserver2.workers.dev&fp=chrome&alpn=http/1.1#Luxid.vip
-vless://429efff7-16bd-499e-85a5-a6f4b89c2773@172.67.139.85:80?security=none&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/AWGG17eLHc5QLzJr?ed=2560#Luxid.vip
 
 #profile-title: base64:8J+GkyBHaXQ6RXBvZG9uaW9zIHwgU3ViMyDwn5Sl
 #profile-update-interval: 1
 #subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
 #support-url: https://github.com/epodonios/V2ray-config
 #profile-web-page-url: https://github.com/epodonios/V2ray-config
+vless://429efff7-16bd-499e-85a5-a6f4b89c2773@172.67.139.85:443?security=tls&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/K2w7vCx3fNcdCrSc?ed=2560&sni=cxrolvpn.vipserver2.workers.dev&fp=chrome&alpn=http/1.1#Luxid.vip
+vless://429efff7-16bd-499e-85a5-a6f4b89c2773@172.67.139.85:80?security=none&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/AWGG17eLHc5QLzJr?ed=2560#Luxid.vip
 vless://429efff7-16bd-499e-85a5-a6f4b89c2773@www.speedtest.net:443?security=tls&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/Ay0V02ow7rt6P1Ml?ed=2560&sni=cxrolvpn.vipserver2.workers.dev&fp=chrome&alpn=http/1.1#Luxid.vip
 vless://429efff7-16bd-499e-85a5-a6f4b89c2773@www.speedtest.net:80?security=none&encryption=none&type=ws&host=cxrolvpn.vipserver2.workers.dev&path=/FkJEHRUYQOp0TIQ5?ed=2560#Luxid.vip
 vless://42c3337e-57f5-48d8-b7ad-46f75f5e7e8a@pro-jp.emrata.top:443/?type=tcp&encryption=none&flow=&sni=pro-jp.emrata.top&fp=chrome&security=reality&pbk=F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I&sid=#Luxid.vip
@@ -3013,5 +3015,3 @@ vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@62.238.53.197:1234?encryption=none&
 vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@62.238.55.96:1234?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#Luxid.vip
 vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@62.238.63.51:1234?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#Luxid.vip
 vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@91.99.119.155:1234?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#Luxid.vip
-vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@94.130.179.44:1234?encryption=none&security=none&type=tcp&headerType=http&path=/&host=play.google.com#Luxid.vip
-vless://83b69fd2-ae76-4a35-8f0e-65b90babcc6f@yashar.mexokj.ir:443?encryption=none&security=reality&type=tcp&sni=login.yahoo.com&fp=chrome&pbk=OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg&sid=c6e19c434dc87df7&spx=/#Luxid.vip
